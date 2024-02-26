@@ -9,30 +9,22 @@ body{
     letter-spacing: 3px;
     font-size: 10px;
 }
-div {
+
+.container {
     background-color: hsl(217, 19%, 24%);
 }
 #dice{
     background-color: hsl(150, 100%, 66%);
     text-align: center;
-    bottom: -13%;
+    bottom: -12%;
 }
 #dice:hover{
     box-shadow: 0 0 30px aquamarine;
 }
-/* Mobile: 375px
-Desktop: 1440px
-Colors
-Primary
-Light Cyan: 
-Neon Green: 
-Neutral
-Grayish Blue: hsl(217, 19%, 38%)
-Dark Grayish Blue: hsl(217, 19%, 24%)
-Dark Blue: hsl(218, 23%, 16%) body
-Typography
-Body Copy
-Font size (quote): 28px
-Font
-Family: Manrope
-Weights: 800 */
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(150, 100%, 66%);
+}
