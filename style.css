@@ -12,6 +12,7 @@ body{
 
 .container {
     background-color: hsl(217, 19%, 24%);
+    max-width: 450px;
 }
 #dice{
     background-color: hsl(150, 100%, 66%);
